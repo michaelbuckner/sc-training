@@ -1,5 +1,6 @@
 import flask
 from flask import request, jsonify
+from waitress import serve
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
@@ -310,4 +311,4 @@ def api_all():
     return jsonify(transactions)
 
 
-app.run()
+serve(app, host='0.0.0.0', port=5000)
