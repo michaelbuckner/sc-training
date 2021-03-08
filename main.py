@@ -8,7 +8,7 @@ app.config['DEBUG'] = True
 # Create some test data for our catalog in the form of a list of dictionaries.
 transactions = [
     {'id': 0,
-     'name': 'Fred Luddy',
+     'name': 'Brian Lara',
      'status': 'Active',
      'transactions': [
          {
@@ -30,6 +30,7 @@ transactions = [
              'payoutAmount': 10,
              'commission': 0,
              'fee': 0,
+             'financialAccount': 'CC-CP-9933',
              'amount': 10,
              'totalAmount': 10,
              'card': {
@@ -107,7 +108,7 @@ transactions = [
 
      },
     {'id': 1,
-     'name': 'Abel Tuter',
+     'name': 'Silvester Erik',
      'status': 'Active',
 'transactions': [
          {
@@ -129,6 +130,7 @@ transactions = [
              'payoutAmount': 10,
              'commission': 0,
              'fee': 0,
+             'financialAccount': 'CC-SRCC-9375',
              'amount': 10,
              'totalAmount': 10,
              'card': {
@@ -205,7 +207,7 @@ transactions = [
      ]
      },
     {'id': 2,
-     'name': 'Abraham Lincoln',
+     'name': 'Sam Collins',
      'status': 'Active',
 'transactions': [
          {
@@ -227,6 +229,7 @@ transactions = [
              'payoutAmount': 10,
              'commission': 0,
              'fee': 0,
+             'financialAccount': 'CC-FCC-4577',
              'amount': 10,
              'totalAmount': 10,
              'card': {
